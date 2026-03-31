@@ -20,7 +20,7 @@ export default function UserList() {
   return (
     <>
       <button onClick={handleEnterUsers}>Enter Users</button>
-      <button>Set New User</button>
+      <button>Set Employees Delete</button>
       <button>Delete User</button>
       <ol>
         {users.map((user) => (
