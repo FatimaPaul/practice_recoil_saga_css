@@ -20,7 +20,7 @@ export default function UserList() {
   return (
     <>
       <button onClick={handleEnterUsers}>Enter Users</button>
-      <button>Set New User</button>
+      <button>Set Employees Delete</button>
       <ol>
         {users.map((user) => (
           <li key={user.id}>{user.firstName}</li>
