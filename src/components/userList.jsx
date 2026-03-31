@@ -21,6 +21,7 @@ export default function UserList() {
     <>
       <button onClick={handleEnterUsers}>Enter Users</button>
       <button>Set New User</button>
+      <button>Delete User</button>
       <ol>
         {users.map((user) => (
           <li key={user.id}>{user.firstName}</li>
